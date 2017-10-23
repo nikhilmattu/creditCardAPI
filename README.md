@@ -3,17 +3,21 @@ LAST UPDATED: October 22, 2017
 
 Instructions to run this project
 -----------------------------------------------------------
-1. Clone the repository @ (insert repo link here)
-2. Make sure node is installed (https://nodejs.org/en/)
-3. In the root folder run: "npm init"
-4. Email nikhilmattu@gmail.com for the database password
-5. Insert password into package.json "app" script and run: "npm run-script app"
-
+1. Make sure node is installed on your machine (https://nodejs.org/en/)
+2. Clone the repository using 'git clone https://github.com/nikhilmattu/creditCardAPI.git'
+3. Enter the root directory using 'cd creditCardAPI'
+4. Run: "npm install"
+5. Email nikhilmattu@gmail.com for the database password
+6. Open package.json using 'vi package.json'
+7. Replace "PLACEPASSWORDHERE" with given password (there are two lines where this needs to be done)
+8. Run: "npm run-script app"
+9. Access the application at 'http://localhost:3000'
 
 Instructions to run tests (make sure previous steps are followed!)
 -----------------------------------------------------------
-1. In the root folder of the application, run: "npm run-script apptest" (make sure password is inserted in package.json "app" script)
-2. In the root folder of the application, run: "npm run-script test"
+1. In the root folder of the application, run: 'npm run-script apptest' (make sure password is inserted in package.json "apptest" script)
+2. Open a new terminal and go to the root directory of the application
+3. In the new terminal window, run: 'npm run-script test'
 
 
 Available endpoints

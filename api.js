@@ -23,7 +23,7 @@ app.get('/', function (req, res) {
 
 app.get('/health', function (req, res) {
   res.status(HttpStatusCodes.OK);
-  res.send('Hello Capital One!');
+  res.send('Hello there!');
   MongoClient.connect(uri).then(db => {
     const collection = db.collection(DATA);
     collection.count().then(count =>{
