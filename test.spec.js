@@ -31,7 +31,7 @@ describe("Health endpoint is running", function() {
 
     it("returns Hello Capital One!", function(done) {
       request.get(`${base_url}/health`, function(error, response, body) {
-        expect(body).toBe("Hello Capital One!");
+        expect(body).toBe("Hello there!");
         done();
       });
     });
