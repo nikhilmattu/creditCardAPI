@@ -6,7 +6,7 @@
   "scripts": {
     "app": "node api.js PLACEPASSWORDHERE creditCardAPI",
     "apptest": "node api.js PLACEPASSWORDHERE test2",
-    "test": "./node_modules/.bin/jasmine-node --verbose spec"
+    "test": "./node_modules/.bin/jasmine-node --verbose ."
   },
   "author": "Nikhil Mattu",
   "license": "ISC",
